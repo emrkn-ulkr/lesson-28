@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(117, 188, 255);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#input-Text {
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 20px;
+    vertical-align: middle;
+    border-radius: 15px;
+    color: darkcyan;
+    outline: none;
+}
+
+#input-Text:focus {
+    width: 350px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    vertical-align: middle;
+    border-radius: 15px;
+    color: darkcyan;
+    outline: none;
+}
+
+#add-Button {
+    width: 85px;
+    height: 45px;
+    border: 2px solid greenyellow;
+    border-radius: 15px;
+    text-align: center;
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#clear-Button {
+    width: 85px;
+    height: 45px;
+    border: 2px solid rgb(255, 117, 75);
+    border-radius: 15px;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#add-Button:hover {
+    background-color: rgba(66, 117, 0, 0.493);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 4px solid rgb(27, 255, 84);
+}
+
+#clear-Button:hover {
+    background-color: rgb(196, 0, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 5px solid rgba(255, 148, 171, 0.534);
+}
+
+.parag-style {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 25px;
+    color: purple;
+    text-transform: capitalize;
+}
+
+.to-do {
+    margin-top: 30px;
+}
+
+#title-h1 {
+    color: rgb(253, 115, 223);
+    ;
+}
